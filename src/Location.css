@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.featured-location {
+  align-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+  
+
+.kandy {grid-area: kandy;}
+.anu {grid-area: anu;}
+.badulla {grid-area: badulla;}
+.ga {grid-area: ga;}
+.jaffna {grid-area: jaffna;}
+.colombo {grid-area: colombo;}
+
+.imgs{
+  display: grid;
+  grid-template-areas: 
+  "kandy anu badulla colombo"
+  "kandy ga jaffna colombo ";
+  gap: 10px;
+  margin-top: 40px;
+  width: 100%;
+  vertical-align: center;
+
+}
+
+.jaffna, .ga {
+  margin-top: 25px;
+}

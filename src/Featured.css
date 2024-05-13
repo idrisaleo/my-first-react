@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.featured-listing {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.all-items-all {
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-around;
+  margin-top: 35px;
+}
+
+.all-items {
+  background-color: #e93740;
+  border-radius: 30px;
+  padding: 12px 24px 12px 24px;
+}
+
+.residential {
+  background-color: #e8e8e8;
+  border-radius: 30px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 80px;
+}
+
+.sport {
+  background-color: #e8e8e8;
+  border-radius: 30px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 80px;
+}
+
+.meeting {
+  background-color: #e8e8e8;
+  border-radius: 30px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 80px;
+}
+
+.vans {
+  background-color: #e8e8e8;
+  border-radius: 30px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 80px;
+}
+
+.cars {
+  background-color: #e8e8e8;
+  border-radius: 30px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 80px;
+}
+
+.lorries {
+  background-color: #e8e8e8;
+  border-radius: 30px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 80px;
+}
+
+.all-images {
+  display: flex;
+  column-gap: 10px;
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 40px;
+}
+
+.rent {
+  background-color: green;
+  border-radius: 13px;
+  position: absolute;
+  left: 390px;
+  top: 200px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  color: white;
+  font-size: small;
+}
+
+.img1 {
+  position: relative;
+}
+
+.img2 {
+  position: relative;
+}
+
+.rent2 {
+  background-color: green;
+  border-radius: 13px;
+  position: absolute;
+  left: 950px;
+  top: 200px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  color: white;
+  font-size: small;
+}
+
+.rent3 {
+  background-color: green;
+  border-radius: 13px;
+  position: absolute;
+  left: 1450px;
+  top: 205px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  width: 60px;
+  color: white;
+  font-size: small;
+}
+
+.img1-, .img2-, .img3- {
+  position: relative;
+}
+
+.rent- {
+ background-color: green;
+ border-radius: 13px;
+ position: absolute;
+ color: white;
+ width: 60px;
+ top: 750px;
+ left: 400px;
+ padding-top: 5px;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-bottom: 5px;
+ width: 60px;
+ color: white;
+ font-size: small;
+}
+
+  
+
+
+.rent2- {
+  background-color: green;
+  border-radius: 13px;
+  position: absolute;
+  left: 950px;
+  top: 750px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  width: 60px;
+  color: white;
+  font-size: small;
+}
+
+.rent3- {
+  background-color: green;
+  border-radius: 13px;
+  position: absolute;
+  left: 1450px;
+  top: 750px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  width: 60px;
+  color: white;
+  font-size: small;
+}
+
+.month-luxury {
+  margin-top: 5px;
+  line-height: 30px;
+}
+
+.eight5 {
+  color: red;
+}
+
+.bedrooms {
+  display: flex;
+  margin-top: 10px;
+  column-gap: 40px;
+}
+
+.vl {
+  position: absolute;
+  top: 570px;
+  left: 100px;
+}
+
+.vl2 {
+  position: absolute;
+  top: 570px;
+  left: 225px;
+}
+
+.vll {
+  position: absolute;
+  top: 570px;
+  left: 630px;
+}
+
+.vll2 {
+  position: absolute;
+  top: 570px;
+  left: 755px;
+}
+
+.vlll {
+  position: absolute;
+  top: 570px;
+  left: 1160px;
+}
+
+.vlll3 {
+  position: absolute;
+  top: 570px;
+  left: 1280px;
+}
+
+.vvvl-{
+  position: absolute;
+  top: 1115px;
+  left: 1285px;
+}
+
+.vvvl{
+  position: absolute;
+  top: 1115px;
+  left: 1170px;
+
+}
+
+.vvl2-{
+  position: absolute;
+  top: 1115px;
+  left: 750px;
+}
+
+.vvl2{
+  position: absolute;
+  top: 1115px;
+  left: 636px;
+}
+
+.vvl-{
+  position: absolute;
+  top: 1115px;
+  left: 225px;
+  
+}
+
+.vvl{
+  position: absolute;
+  top: 1115px;
+  left: 105px;
+}
+
+.footer-img {
+  display: flex;
+  column-gap: 150px;
+  margin-top: 20px;
+  align-content: center;
+}
+.human-img-anne-property {
+  display: flex;
+  column-gap: 5px;
+}
+
+.load {
+  color: white;
+  background-color: red;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  width: 142px;
+  border-radius: 10px;
+  margin-left: 600px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
