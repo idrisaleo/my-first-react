@@ -4,27 +4,35 @@
   box-sizing: border-box;
 }
 
+.dis1 {
+  margin-top: 20px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
 
+.dis2 {
+  font-size: 23px;
+  margin-top: 20px;
+}
 
 .container {
   display: flex;
   width: 100%;
-  height: 45px;
-  justify-content: space-between;
-  margin-top: 10px;
-  vertical-align: baseline;
+  height: 2px;
+  align-items: flex-start;
+  padding-bottom: 10px;
 }
 
 .idak {
   display: flex;
   width: 90px;
-  height: 28px;
+  height: 100px;
   top: 21px;
   left: 150px;
   margin-left: 80px;
 }
 
 .nav {
+  font-family: "Lexend", sans-serif;
   display: flex;
   width: 643px;
   height: 20px;
@@ -32,7 +40,7 @@
   left: 638.5px;
   gap: 56px;
   margin-left: 150px;
-  font-size: small;
+  font-size: 9px;
 }
 
 .signin-posting {
@@ -64,7 +72,7 @@
 .si {
   width: 55px;
   height: 14px;
-  font: Lexend;
+  font-family: "Lexend";
   font-weight: 500;
   size: 16px;
   line-height: 14px;
@@ -73,12 +81,12 @@
 }
 
 .posting {
-  width: 120px;
+  width: 200px;
   height: 30px;
   line-height: 15px;
-  border-radius: 25px;
-  padding-left: 2px;
-  padding-right: 2px;
+  border-radius: 75px;
+  padding-left: 4px;
+  padding-right: 4px;
   padding-top: 8px;
   padding-bottom: 8px;
   background-color: red;
@@ -102,6 +110,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 60px;
 }
 
 .search {
@@ -109,93 +118,120 @@
   position: absolute;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 10px;
-  width: 500px;
-  height: 96px;
+  width: 620px;
+  height: 80px;
   top: 40%;
   left: 52%;
   transform: translate(-50%, -50%);
   border-radius: 80px;
   background-color: #ffffff;
   align-items: center;
+  justify-content: space-between;
   margin-top: 100px;
-  padding-bottom: 10px;
-
+  padding: 0 20px;
 }
-
+input {
+  outline: none;
+}
+.location__section {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
 .mirror {
   display: flex;
   align-items: center;
   max-width: 100%;
   column-gap: 5px;
+  border-right: 1px solid rgb(187, 187, 187);
+  height: 100%;
 }
 
-.glass,
-.map,
-.chevron {
-  width: 20px;
-  height: 30px;
-  padding-top: 10px;
+.locator {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 70px;
+  column-gap: 50px;
+}
+
+.all-but-group {
+  display: flex;
+  align-items: center;
 }
 
 .map {
-  margin-left: 20px;
+  margin-left: 90px;
+  display: inline;
 }
 
 .group {
-  margin-left: 15px;
   padding-top: 10px;
-}
-
-
-.locator {
   display: flex;
-  align-items: center;
-  max-width: 100%;
-  column-gap: 5px;
+  justify-content: end;
+  margin-left: 120px;
+  width: 55px;
 }
-
 
 .discover {
   display: flex;
   justify-content: center;
   padding-top: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .rental {
   color: red;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .group {
   margin-left: 60px;
 }
 
-.sl{
-  margin-left: 40px;
-  font-size: 12px;
-  font-family: "Plus Jakarta Sans, sans-serif";
-}
-
 .more {
-  margin-right: 20px;
-  font-size: 12px;
+  width: 250px;
+  font-size: 6px;
   font-family: "Plus Jakarta Sans, sans-serif";
-
 }
 
+.sl {
+  width: 100px;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans, sans-serif";
+  margin-left: 15px;
+}
+
+.chev {
+  margin-left: 10px;
+}
+
+.group {
+  margin-left: 5px;
+  width: 55px;
+  height: 55px;
+}
 
 .places {
   display: flex;
   justify-content: center;
+  align-items: center;
   column-gap: 10px;
-  padding-top: 30px;
-  margin-top: 1px;
+  margin-top: 30px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
 }
 
 .pl {
   color: white;
   background-color: red;
   border-radius: 20px;
-  padding: 10px 24px 10px 24px;
+  width: 70px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  text-align: center;
 }
 
 .ri,
@@ -203,12 +239,17 @@
   color: black;
   background-color: white;
   border-radius: 20px;
-  padding: 10px 24px 10px 24px;
+  width: 70px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  text-align: center;
 }
 
 .dis-container {
   display: flex;
   flex-direction: column;
   text-align: center;
-  line-height: 60px;
+  line-height: 45px;
+  font-size: 25px;
 }

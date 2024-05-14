@@ -5,6 +5,7 @@ import Location from "./Location"
 import Insight from "./Insight"
 import Important from "./Important"
 import Footer from "./Footer"
+import PassGen from "./PassGen";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {useState} from "react"
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/location" element={<Location />} />
           <Route path="/important" element={<Important />} />
           <Route path="/footer" element={<Footer />} />
+          <Route path="/passgen" element={<PassGen/>} />
                   
         
         </Routes>

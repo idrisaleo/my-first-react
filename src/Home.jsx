@@ -1,21 +1,28 @@
 import React from "react";
 import "./Home.css";
+import searchImg from "./../src/assets/myPics/search.png";
+import mapImg from "./../src/assets/myPics/map-pin.png";
+import chevImg from "./../src/assets/myPics/chevron-down.png";
+import grpImg from "./../src/assets/myPics/group.png";
+import idakImg from "./../src/assets/myPics/logo 1.png";
+
 
 function Home() {
+
   return (
     <>
       <div className="container">
         <div className="idak">
-          <img src="./src/assets/myPics/logo 1.png" alt="idak logo" />
+          <img src={idakImg} alt="" />
         </div>
 
         <div className="nav">
-          <p>Home</p>
-          <p>Rentals</p>
-          <p>Categories</p>
-          <p>About Us</p>
-          <p>Contact</p>
-          <p>Blog</p>
+          <span>Home</span>
+          <span>Rentals</span>
+          <span>Categories</span>
+          <span>About Us</span>
+          <span>Contact</span>
+          <span>Blog</span>
         </div>
 
         <div className="signin-posting">
@@ -57,37 +64,43 @@ function Home() {
       </div>
 
       <div className="search">
-        <div className="mirror">
-          <img
-            className="glass"
-            src="./src/assets/myPics/search.png"
-            alt="search icon"
+        <span className="mirror">
+          <img src={searchImg} alt="" />
+          <input
+            className="more"
+            type="text"
+            placeholder="Search for cars, houses, and more.."
           />
-          <input className="more" type="text" placeholder="Search for Cars, Houses, and more.." />
-        
-        </div>
+        </span>
 
         <div className="locator">
-          <img className="map" src="./src/assets/myPics/map-pin.png" alt="" />
-          <input className="sl" type="text" placeholder="Select Location" />
-        </div>
+          <div className="all-but-group">
+            <div className="location__section">
+              <img src={mapImg} alt="" />
+            </div>
 
-        <div>
-          <img
-            className="chevron"
-            src="./src/assets/myPics/chevron-down.png"
-            alt=""
-          />
-        </div>
+            <div className="sl">
+              <input type="text" placeholder="Select Location" />
+            </div>
 
-        <div className="group">
-          <img src="./src/assets/myPics/group.png" alt="group png" width="30" />
+            <div className="chev">
+              <img src={chevImg} alt="" />
+            </div>
+          </div>
+
+          <div className="group">
+            <img src={grpImg} alt="" />
+          </div>
         </div>
       </div>
 
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+        <style>
+          @import
+          url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+        </style>
       </style>
     </>
   );

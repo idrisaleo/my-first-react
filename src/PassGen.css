@@ -1,0 +1,71 @@
+*{
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.backImg {
+  background: url("./assets/myPics/flower.jpg");
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 20px;
+  
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 700px;
+  height: 500px;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 50px;
+  margin-left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.passAD {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.AD{
+  display: flex;
+  flex-direction: column;
+  margin-right: 90px;
+  line-height: 20px;
+}
+
+.toggle {
+  width: 20px;
+  color: white;
+}
+
+.advance, .dark {
+  display: flex;
+  column-gap: 10px;
+
+}
+
+.lenNum {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 300px;
+}
+
+.{}
